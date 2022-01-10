@@ -19,16 +19,17 @@ namespace Sort
                     cincin.cinm(ref arr); 
                     break;
                 case 2:
-                    InterfaceForCinFile cinfile = new InterfaceForCinFile();
-                    cinfile.cinm(ref arr);
+                    InterfaceForCinFile randfiledef = new InterfaceForCinFile();
+                    randfiledef.cinm(ref arr);
                     break;
                 case 3:
                     InterfaceForCinRand randfile = new InterfaceForCinRand();
                     randfile.cinm(ref arr);
                     break;
                 default:
-                    InterfaceForCinRand randfiledef = new InterfaceForCinRand();
-                    randfiledef.cinm(ref arr);
+                    InterfaceForCinFile cinfile = new InterfaceForCinFile();
+                    cinfile.cinm(ref arr);
+                    
                     break;
 
             }
